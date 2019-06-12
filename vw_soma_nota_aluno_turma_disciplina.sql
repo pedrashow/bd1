@@ -1,0 +1,1 @@
+SELECT av.co_aluno, av.co_turma, av.co_disciplina, SUM(av.nt_avaliacao) AS somatorio FROM avaliacao av GROUP BY av.co_aluno, av.co_turma, av.co_disciplina 
